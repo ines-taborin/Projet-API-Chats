@@ -13,6 +13,7 @@ Ce projet est une mini-application développée avec **React** et **Tailwind CSS
 ## 🖼️ Aperçu
 
 ![Aperçu de l'application](./public/screenshot.png)
+![Aperçu de l'application](./public/screenshot2.png)
 
 ## ⚙️ Stack technique
 
