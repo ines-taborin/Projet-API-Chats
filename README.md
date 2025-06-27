@@ -23,9 +23,17 @@ Ce projet est une mini-application développée avec **React** et **Tailwind CSS
 
 ## 🔄 Fonctionnalités
 
-- Chargement d’une image de chat aléatoire à l’ouverture de la page
-- Bouton pour rafraîchir l’image avec un nouveau chat
-- Responsive design rapide avec Tailwind
+- 🐱 **Affichage dynamique** des informations détaillées sur une race de chat à partir de l’API [The Cat API](https://thecatapi.com/)
+- 📸 **Image de la race** affichée à partir d’un `reference_image_id`
+- 🔄 **Chargement automatique** des données selon l’`id` de la race dans l’URL (grâce à React Router)
+- 💬 **Description complète** de la race, son origine, son espérance de vie, son poids…
+- 🌟 **Notation visuelle** (étoiles) des caractéristiques de la race : affection, intelligence, adaptabilité, etc.
+- 🧠 **Tempérament** et niveau d’hypoallergénicité détaillés
+- 🔗 Liens externes (CFA, VCA, Wikipedia…) affichés selon disponibilité
+- ⚛️ Composants réutilisables : `Bouton`, `Spinner`, `Error`
+- 🚦 **Gestion du chargement** (avec `Spinner`) et des erreurs (affichage d’un message si l’API échoue)
+- 💅 **Responsive design** avec Tailwind CSS
+- 🔁 **Comportement dynamique** basé sur les effets de `useEffect` et la récupération via `fetch`
 
 ## 🚀 Lancer le projet en local
 
