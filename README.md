@@ -13,7 +13,7 @@ Ce projet est une application web développée en **JavaScript** qui interagit a
 
 - HTML5
 - CSS3 (basique)
-- JavaScript ES6+
+- React
 
 ## 📸 Aperçu
 
