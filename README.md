@@ -1,29 +1,40 @@
-# 🐱 Projet API Chats
+# 🐾 Projet API Chats – React & Tailwind
 
-Ce projet est une application web développée en **JavaScript** qui interagit avec une **API de chats**. Il permet d'afficher dynamiquement des images de chats aléatoires grâce à une requête HTTP `fetch`.
+Ce projet est une mini-application développée avec **React** et **Tailwind CSS**, permettant d'afficher des images de chats aléatoires via une API publique. C'est un projet simple et visuel pour expérimenter les appels API (`fetch`) et la mise en page avec Tailwind.
 
-## 🚀 Fonctionnalités
+## 🎯 Objectif du projet
 
-- 🔄 Récupération d'images aléatoires de chats depuis une API publique
-- 🎯 Affichage dynamique des images dans la page HTML
-- 🖱️ Bouton pour générer une nouvelle image de chat
-- 💡 Code simple et commenté, idéal comme projet d'apprentissage de `fetch` et du DOM
+- Consommer une API externe (`The Cat API`)
+- Afficher dynamiquement une image de chat
+- Recharger l’image sur clic
+- Structurer un projet React moderne avec composants
+- Styliser rapidement avec Tailwind CSS
 
-## 🔧 Technologies utilisées
+## 🖼️ Aperçu
 
-- HTML5
-- CSS3 (basique)
-- React
+![Aperçu de l'application](./public/screenshot.png)
 
-## 📸 Aperçu
+## ⚙️ Stack technique
 
-![Aperçu](./assets/chat-example.png) 
+- ⚛️ **React**
+- 🎨 **Tailwind CSS**
+- 🌐 **The Cat API** — [https://thecatapi.com/](https://thecatapi.com/)
 
-## 📁 Structure du projet
+## 🔄 Fonctionnalités
+
+- Chargement d’une image de chat aléatoire à l’ouverture de la page
+- Bouton pour rafraîchir l’image avec un nouveau chat
+- Responsive design rapide avec Tailwind
+
+## 🚀 Lancer le projet en local
 
 ```bash
-├── index.html
-├── style.css
-├── script.js
-└── assets/
-    └── chat-example.png
+# 1. Cloner le repo
+git clone https://github.com/ines-taborin/Projet-API-Chats.git
+cd Projet-API-Chats
+
+# 2. Installer les dépendances
+npm install
+
+# 3. Lancer le projet
+npm run dev
