@@ -1,6 +1,6 @@
 # 🐾 Projet API Chats – React & Tailwind
 
-Ce projet est une mini-application développée avec **React** et **Tailwind CSS**, permettant d'afficher des images de chats aléatoires via une API publique. C'est un projet simple et visuel pour expérimenter les appels API (`fetch`) et la mise en page avec Tailwind.
+Ce projet est une mini-application développée avec **React** et **Tailwind CSS**, permettant d'afficher des images et informations sur des chats aléatoires via une API publique. C'est un projet simple et visuel pour expérimenter les appels API (`fetch`) et la mise en page avec Tailwind.
 
 ## 🎯 Objectif du projet
 
